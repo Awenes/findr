@@ -39,6 +39,9 @@ function App() {
   return (
     <div>
       <div className="container">
+        <p>
+          Get direct download links to fles from accross the internet.
+        </p>
         <section className="search">
           <input className='find' type="text" value={searchTerm} onChange={handleSearchChange} placeholder="Search for files" />
           <button onClick={fetchData}>Search</button>
